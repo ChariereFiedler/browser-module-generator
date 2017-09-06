@@ -1,0 +1,25 @@
+{
+  "name": "@evosphere/browser-module-generator",
+  "version": "0.1.0",
+  "description": "generate a folder with standard code to create a browser plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rewieer@github.com/evosphere/browser-module-generator.git"
+  },
+  "author": "Rewieer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evosphere/browser-module-generator/issues"
+  },
+  "homepage": "https://github.com/evosphere/browser-module-generator#readme",
+  "bin": {
+    "browser-module-generator": "bin/create.js"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}
